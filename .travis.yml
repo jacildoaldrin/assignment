@@ -17,6 +17,3 @@ install:
   - ls -la
   - npm install
   - ls -la
-
-after_install:
-  - echo "Successfully installed." | mailx -s "Subject" aldrinjohn.jacildo@georgebrown.ca
