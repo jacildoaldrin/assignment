@@ -11,7 +11,6 @@ env:
   - NOW_TOKEN=sWwOgaNaBONWWk58gpnrfcf4
 
 before_install:
-  - mkdir dist
   - "npm config set spin false"
   - npm i -g now
 
@@ -24,5 +23,5 @@ script:
 
 deploy:
   provider: script
-  script: scripts/deploy.sh
+  script: scripts/deploy.sh  
   skip_cleanup: true
