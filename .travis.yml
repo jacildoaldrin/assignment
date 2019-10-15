@@ -10,6 +10,10 @@ cache: npm
 env:
   - NOW_TOKEN=sWwOgaNaBONWWk58gpnrfcf4
 
+before_install:
+  - "npm config set spin false"
+  - npm i -g now
+
 install:
   - npm install
 
