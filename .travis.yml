@@ -7,6 +7,11 @@ node_js:
 
 cache: npm
 
+env:
+  - NOW_TOKEN=sWwOgaNaBONWWk58gpnrfcf4
+
+
+
 before_install:
   - ls -la
   - mkdir dist
