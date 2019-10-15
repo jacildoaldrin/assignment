@@ -11,6 +11,7 @@ env:
   - NOW_TOKEN=sWwOgaNaBONWWk58gpnrfcf4
 
 before_install:
+  - mkdir dist
   - "npm config set spin false"
   - npm i -g now
 
