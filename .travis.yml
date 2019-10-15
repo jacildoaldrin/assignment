@@ -10,13 +10,9 @@ cache: npm
 env:
   - NOW_TOKEN=sWwOgaNaBONWWk58gpnrfcf4
 
-
-
-before_install:
-  - ls -la
-  - mkdir dist
-
 install:
-  - ls -la
   - npm install
-  - ls -la
+
+script:
+  - npm run build
+  - npm run test
