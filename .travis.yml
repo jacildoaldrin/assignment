@@ -13,6 +13,7 @@ env:
 before_install:
   - "npm config set spin false"
   - npm i -g now
+  - mkdir public
 
 install:
   - npm install
